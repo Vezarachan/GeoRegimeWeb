@@ -1,0 +1,28 @@
+# Local editor / harness state
+.claude/
+.vscode/
+.idea/
+
+# Windows
+desktop.ini
+Thumbs.db
+ehthumbs.db
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Misc
+*.log.bak
+*.swp
+
+# Raw evolution outputs (~12 MB, not needed by the deployed site).
+# web/data.json is the rendered artifact and IS tracked.
+# Re-run `python build_data.py` locally if you have these outputs.
+outputs_georegime_2kmodels_dynamic_gpt/
